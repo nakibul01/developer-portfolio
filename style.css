@@ -40,3 +40,13 @@ section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
+
+.right img{
+    /* height: 360px; */
+    /* width: 360px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    display: block;
+    width: 50%;
+}
