@@ -10,30 +10,31 @@ h1{
 }
 
 section{
+    margin-bottom: 100px;
     display: flex;
 }
 
-.left {
+.half-width {
     width: 55%;
     padding: 25px;
 }
 
-.left p{
+.half-width p{
     text-align: justify;
 }
 
-.left .orange-color{
+.half-width .orange-color{
     color: orange;
 }
 
 .link-button{
-    color: white;
+    color: whitesmoke;
     font-weight: 700;
     text-decoration: none;
-    border: 1px solid black;
-    background-image: linear-gradient(orange, tomato);
-    padding: 10px 30px;
     border-radius: 5px;
+    background-image: linear-gradient(orange, tomato);
+    border: 1px solid black;
+    padding: 10px 30px;
 }
 
 .top-banner{
@@ -49,4 +50,10 @@ section{
     margin-top: 80px;
     display: block;
     width: 50%;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
