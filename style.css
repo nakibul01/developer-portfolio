@@ -8,6 +8,29 @@ h1{
     font-size: 50px;
 }
 
+section{
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    padding: 25px;
+}
+
+.left p{
+    text-align: justify;
+}
+
 .left .orange-color{
     color: orange;
+}
+
+.link-button{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid black;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+    border-radius: 5px;
 }
